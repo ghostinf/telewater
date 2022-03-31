@@ -5,7 +5,7 @@ from watermark import Position
 
 
 class Config(BaseModel):
-    watermark: str = "https://github.com/ghostinf/telewater/blob/main/telewater/LogoRE.png"
+    watermark: str = "https://github.com/ghostinf/telewater/blob/main/telewater/LogoRE.png?raw=true"
     frame_rate: int = 15
     preset: str = "ultrafast"
     position: Position = Position.top_left
